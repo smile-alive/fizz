@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Heavy";
+  font-weight: 900;
+  src:
+    url("//at.alicdn.com/wf/webfont/EI5xVLDEQaaK/TVX7CxTrXowl.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/EI5xVLDEQaaK/z3GJ4J75YP7T.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Medium";
+  font-weight: 500;
+  src:
+    url("//at.alicdn.com/wf/webfont/EI5xVLDEQaaK/oYm69ZtvMHRR.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/EI5xVLDEQaaK/XHoCbawhhPUQ.woff") format("woff");
+  font-display: swap;
+}
